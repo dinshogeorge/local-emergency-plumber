@@ -113,7 +113,7 @@ blockquote {
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
-/*   background-attachment: scroll, fixed; */
+  background-attachment: scroll, fixed;
 }
 
 
