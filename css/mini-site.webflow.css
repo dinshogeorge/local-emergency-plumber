@@ -103,7 +103,7 @@ blockquote {
   line-height: 45px;
 }
 
-.banner {
+/* .banner {
   position: relative;
   display: block;
   height: 700px;
@@ -114,6 +114,19 @@ blockquote {
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
+} */
+
+.banner {
+  position: relative;
+  display: block;
+  height: 650px;
+  background-color: #2c2c2c;
+  background-image: -webkit-linear-gradient(270deg, rgba(14, 23, 36, .28), rgba(14, 23, 36, .28)), url('../images/emergency-plumber-auckland.jpg');
+  background-image: linear-gradient(180deg, rgba(14, 23, 36, .28), rgba(14, 23, 36, .28)), url('../images/emergency-plumber-auckland.jpg');
+  background-position: 0px 0px, 50% 50px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll;
 }
 
 
