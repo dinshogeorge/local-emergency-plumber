@@ -1416,7 +1416,7 @@ html.w-mod-js *[data-ix="display-none-on-load"] {
     height: auto;
     max-height: auto;
     padding-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
   .appointment-wrapper {
     padding-right: 91px;
