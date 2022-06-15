@@ -1273,8 +1273,9 @@ background-repeat: no-repeat;
   color: #fff;
   font-size: 60px;
   line-height: 75px;
-  font-weight: 400;
-  text-transform: capitalize;
+  font-weight: bold;
+text-transform: capitalize;
+text-shadow: 2px 2px 4px #000;
 }
 
 .banner-title {
