@@ -700,6 +700,15 @@ background-repeat: no-repeat;
 
 }
 
+.service-image {
+  display: block;
+  width: 300px;
+  }
+
+  .service-image img{border-radius: 50%;  
+    width: 200px;
+    }
+
 .service-icon.drains {
   background-image: url('../images/emergency-drain-unblocker.png');
   background-size: 100px;
@@ -802,8 +811,14 @@ background-repeat: no-repeat;
 
 .left-wrapper {
   position: relative;
-  height: 700px;
-  max-height: 700px;
+  /* height: 700px; */
+  min-height: 920px;
+}
+
+.right-wrapper {
+  position: relative;
+
+
 }
 
 .left-wrapper.color {
@@ -1489,6 +1504,14 @@ html.w-mod-js *[data-ix="display-none-on-load"] {
     height: 800px;
     background-position: 0px 0px, 50% 40px;
   }
+
+  .right-wrapper img{ margin-top: 150px; }
+}
+
+
+@media (min-width: 1200px) {
+
+  .right-wrapper img{ margin-top: 150px; }
 }
 
 @media (max-width: 991px) {
@@ -1596,6 +1619,19 @@ html.w-mod-js *[data-ix="display-none-on-load"] {
   .heading {
     color: #fff;
   }
+
+  .container-2 {
+    overflow: visible;
+    clear: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  
+  
 }
 
 @media (max-width: 767px) {
@@ -1651,7 +1687,9 @@ html.w-mod-js *[data-ix="display-none-on-load"] {
   .icon-4 {
     display: block;
   }
+  
 }
+
 
 @media (max-width: 479px) {
   .banner {
