@@ -226,20 +226,7 @@ font-size: 27px;
 
 }
 
-ul.no_bullet {
-list-style-type: none;
-padding: 0;
-margin: 0;
-color: #fff;
-}
 
-li.leaf {
-background: url('https://hireaplumber.co.nz/wp-content/uploads/2022/09/yellow-check-1.png') no-repeat left top;
-
-padding-left: 35px;
-padding-top: 0px;
-	
-}
 
 .text_color{color:#fff;}
 
