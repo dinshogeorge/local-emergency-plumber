@@ -118,6 +118,133 @@ blockquote {
   background-attachment: scroll, fixed;
 } */
 
+/* Call Button Style Start */
+
+
+@-webkit-keyframes loveBeat {
+  0,
+  100%,
+  80% {
+   -webkit-transform:scale(1);
+   transform:scale(1)
+  }
+  70%,
+  90% {
+   -webkit-transform:scale(0.8);
+   transform:scale(0.8)
+  }
+ }
+ @keyframes loveBeat {
+  0,
+  100%,
+  80% {
+   -webkit-transform:scale(1);
+   transform:scale(1)
+  }
+  70%,
+  90% {
+   -webkit-transform:scale(0.8);
+   transform:scale(0.8)
+  }
+ }
+ @-webkit-keyframes mobileCall {
+  0,
+  5% {
+   width:100px;
+  }
+  10%,
+  5% {
+   width:150px;
+  }
+  10%,
+  100% {
+   width:100px;
+  }
+ }
+ @keyframes mobileCall {
+  0,
+  5% {
+   width:100px;
+  }
+  10%,
+  5% {
+   width:150px;
+  }
+  10%,
+  100% {
+   width:100px;
+  }
+ }
+
+@media (max-width: 700px) {
+.mobile-call {
+    display:block;
+    position:fixed;
+    z-index:1000;
+    left:0;
+    bottom:350px;
+    box-shadow:rgba(0, 0, 0, 0.3) 0 0 1rem;
+    width:100px;
+    height:60px;
+    background:#e81a22;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    -webkit-animation:mobileCall 20s infinite;
+    -moz-animation:mobileCall 20s infinite;
+    -o-animation:mobileCall 20s infinite;
+    animation:mobileCall 20s infinite;
+   }
+   .mobile-call i {
+    float:right;
+    position:absolute;
+    right:20px;
+    color:#fff;
+    font-size:3em;
+    line-height:60px;
+    -webkit-animation:loveBeat 1.6s infinite;
+    -moz-animation:loveBeat 1.6s infinite;
+    -o-animation:loveBeat 1.6s infinite;
+    animation:loveBeat 1.6s infinite
+   }
+
+}
+
+@media (min-width: 1300px) {
+.mobile-call {
+	display:none;
+	}
+}
+
+@media (min-width: 701px) {
+.mobile-call {
+	display:none;
+	}
+}
+
+.bars {
+font-size: 27px;
+
+}
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+color: #fff;
+}
+
+li.leaf {
+background: url('https://hireaplumber.co.nz/wp-content/uploads/2022/09/yellow-check-1.png') no-repeat left top;
+
+padding-left: 35px;
+padding-top: 0px;
+	
+}
+
+.text_color{color:#fff;}
+
+/* Call Button Style End */
+
 .banner {
   position: relative;
   display: block;
